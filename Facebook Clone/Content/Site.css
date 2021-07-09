@@ -1,0 +1,92 @@
+﻿.form-horizontal.loginForm {
+    color: white !important;
+    position: relative;
+}
+
+.form-horizontal.loginForm label {
+    color: white !important;
+}
+
+.form-horizontal.loginForm > div.form-group {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+div.em {
+    position: absolute;
+    right: -330px;
+    bottom: -10px;
+    z-index: 1;
+    display: none;
+}
+
+#loginForm {
+    position: relative;
+}
+
+#loginForm .ajaxDiv {
+    position: absolute;
+    bottom: 30px;
+    right: -30px;
+}
+
+li.livesearchli img {
+    width: 50px;
+}
+
+ul#livesearchul {
+    list-style: none;
+    position: absolute;
+    background: #222;
+    top: 45px;
+    padding: 0;
+    width: 200px;
+    z-index: 10;
+}
+
+ul#livesearchul li.close {
+    position: absolute;
+    color: white;
+    opacity: 1 !important;
+    right: 5px;
+    z-index: 10;
+}
+
+.userImg img {
+    width: 200px;
+}
+
+.frnotif.red {
+    color: red;
+    cursor: pointer;
+}
+
+li.frcountli {
+    position: relative;
+}
+
+ul#frnotiful {
+    list-style: none;
+    position: absolute;
+    top: 45px;
+    background: #222;
+    padding: 0;
+    z-index: 10;
+}
+
+li.frnotifli img {
+    width: 50px;
+}
+
+li.frnotifli {
+    width: 200px;
+}
+
+ul#frnotiful li.close {
+    position: absolute;
+    color: white;
+    opacity: 1 !important;
+    right: 5px;
+    z-index: 10;
+}
